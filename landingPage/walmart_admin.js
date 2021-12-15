@@ -4,6 +4,7 @@ function addProducts(event){
     event.preventDefault();
 
     var addItem ={
+        img_url:adminform.url.value,
         cat: adminform.cat.value,
         Prod_name: adminform.name.value,
         description:adminform.des.value,
