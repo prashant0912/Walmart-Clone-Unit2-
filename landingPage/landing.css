@@ -53,6 +53,8 @@ body {
     border-radius: 0.25rem;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
     opacity: 0;
+    height: 600px;
+    overflow: scroll;
     pointer-events: none;
     transform: translateY(-10px);
     transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
@@ -74,6 +76,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+  }
+  .dropdown-links a {
+    margin-bottom: 35px;
   }
   
   .searchBtnIcon {
