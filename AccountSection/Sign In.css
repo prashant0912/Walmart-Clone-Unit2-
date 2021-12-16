@@ -1,0 +1,49 @@
+.container{
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 320px;
+    margin: auto;
+  }
+  #logo{
+      height: 30px;
+      width: 30px;
+      /* border:  2px solid green; */
+      margin: auto;
+  }
+  #logo>a>img{
+  height: 100%;
+  width: 100%;
+  }
+  .sign-in-head{
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: BogleWeb,Helvetica Neue,Helvetica,Arial,sans-serif;
+  }
+  input{
+    margin: 10px auto;
+    padding: 10px;
+  }
+  .data{
+    width: 90%;
+  }
+  span{
+    font-weight: bold;
+  }
+  button{
+    
+    height:45px;
+    width: 100%;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  #Account_signIn{
+    background-color: blue;
+    color: white;
+  }
+  
+  .P,a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
