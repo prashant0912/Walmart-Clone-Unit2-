@@ -118,12 +118,34 @@
         </div>
   
         <a href="#"><ion-icon name="cart-outline"></ion-icon></a>
-      </div>
       <!-- Cart-section --> 
       
+      <!-- cart icon image add by shoaib (16th dec 9:25pm) -->
+
+      <div class="img"><img style=" border-radius: 60px;" onclick="popup()" src="https://www.kindpng.com/picc/m/714-7147296_digicollect-cart-icon-png-download-jet-com-walmart.png" height="60px" width="60px"></div>
+     
       <!--Cart-Section-->
+      </div>
 
+      <!-- popup window html code by shaoib (16th dec 9:45pm)  start  here-->
 
+      <div style="z-index: 10; position: absolute;" id="popup">
+        <div class="head"><h2>Cart</h2><span><h2 onclick="popuphide()">X</h2></span></div>
+        <img src="https://mccbingo.com/wp-content/uploads/2020/08/Shopping-Cart-Blue-500-x-500.png">
+        <h3>Time to start shopping!</h3>
+        <h4>Your cart is empty</h4>
+        <h4 style="font-weight: 300;">Fill it up with savings from these popular departments.</h4>
+        <div id="btn">
+            <div class="flex">
+                <div class="but" onclick="gotoGroceryPage()">Shop Grocery</div>
+                <div class="but" onclick="gotoElectronicsPage()">Shop Electronics</div>
+                <div class="but" onclick="goToToys()">Shop Toys</div>
+            </div>
+            <div class="but" onclick="gotolandingPage()">Shop Home</div>
+        </div>    
+    </div>
+    
+    <!-- popup html code end here -->
       <!-- Sliding-Banner -->
 
       <section class="team" id="team">
