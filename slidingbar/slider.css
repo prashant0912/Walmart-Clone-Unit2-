@@ -1,0 +1,65 @@
+
+              
+    
+        
+  .slider{    
+    /* max-width:100%;   */
+     overflow: hidden;
+     display: flex;
+     margin-top: 40px;
+ }
+ 
+ .slider .card{
+     background-color:white;
+     flex: 1;
+     margin:0 20px;
+     height: 500px;
+     width: 1300px;
+     margin: auto;
+     
+ }
+ 
+ .slider .card .img{
+     height: 500px;
+     width: 100%;
+     
+ 
+ }
+ 
+ .slider .card .img img{
+     height:100%;
+     width:100%;
+   border: blanchedalmond;
+   border-radius: 20px;
+     object-fit:cover;
+ }
+ 
+ 
+
+ 
+ .owl-dots{
+     text-align: center;
+     margin-top: 20px;
+ }
+ .owl-dot{
+     height: 13px;
+     width: 13px;
+     margin: 0 0px;
+     margin-top: -23px;
+   /*  outline: none!important;   */
+     border-radius: 50%;
+     border: 2px solid transparent;
+     transition: all 0.30s ease;
+ }
+ 
+ 
+ .owl-dot.active{
+     width: 35px;
+     border-radius: 14px;
+     
+ }
+ .owl-dot.active,
+ .owl-dot:hover{
+     background:grey;
+     
+ }
