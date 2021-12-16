@@ -3,7 +3,6 @@
     
         
   .slider{    
-    /* max-width:100%;   */
      overflow: hidden;
      display: flex;
      margin-top: 40px;
@@ -46,7 +45,6 @@
      width: 13px;
      margin: 0 0px;
      margin-top: -23px;
-   /*  outline: none!important;   */
      border-radius: 50%;
      border: 2px solid transparent;
      transition: all 0.30s ease;

@@ -13,3 +13,25 @@ document.addEventListener("click", e => {
       dropdown.classList.remove("active")
     })
   })
+
+
+
+  // sliding-JavaScript start---->
+
+  $(".slider").owlCarousel({
+    margin:20,
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:4000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items: 1,
+            nav:false
+        }
+      
+        }
+
+    
+  })
+//sliding-JavaScript End---->
