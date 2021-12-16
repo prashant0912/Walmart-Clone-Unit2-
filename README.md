@@ -8,9 +8,9 @@ step4 = by clicking that particular product must be added to cart page and every
 step5 = by clicking checkout button it should to payment page and then add card and then last alert pop (Thank you for shop)
         and by clicking that alert button it should be redirect to home page.
 
-*points need to remember*
-focus on functiality in respect of looks. 
-take care of flow
+*points need to remember*  = 
+1.focus on functiality in respect of looks. 
+2.take care of flow
 
 
 Thank you 
