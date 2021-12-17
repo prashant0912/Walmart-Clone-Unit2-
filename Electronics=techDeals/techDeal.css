@@ -214,6 +214,127 @@ body {
   .darkBlue > ul > li {
     padding-left: 25px;
   }
-  
   /*-----footer Css Start-----*/
-  
+  /* tech deals start */
+  #tech1{
+      margin-left: 25px;
+      width: 1310px;
+      margin-top: 30px;
+
+  }
+
+  #image1{
+     width: 1300px;
+
+  }
+   #tech2{
+     margin-top: 10px;
+     width: 1300px;
+     border: 1px  solid green;
+     height: 70px;
+     margin-left: 25px;
+     margin-bottom: 10px;
+   }
+   /* next */
+   #page1 {
+     display: flex;
+     margin-left:25px ;
+     width: 1310px;
+     height: px;
+     margin-bottom: 10px;
+     /* border: 1px solid red;   */
+
+       }
+    #page1 >div{
+    width: 120px;
+    height: 15%;
+    /* border: 1px solid green; */
+    margin-left: 7px;
+
+    }
+    h3{
+        font-weight: bold;
+        font-style: inherit;
+    }
+    img{
+        width: 100%;
+        height: 67%;
+    }
+    p{
+       
+    }
+   #two{
+       width: 500px;
+       height: 40px;
+   }
+   #page{
+     margin-left: 25px;
+     margin-top: 10px;
+
+   }
+   #tech3{
+       width: 1310px;
+       margin-left: 25px;
+       display: flex;
+       height: 500px;
+       margin-top: 10px;
+       border: 1px solid green;
+   
+   }
+   #tech4{
+     width: 320px;
+      margin-left: 10px;
+      border: 1px solid teal;
+      height: 500px;
+
+
+   }
+   #tech5{
+      margin-left: 10px;
+      margin-bottom: 10px;
+      /* border: 1px solid teal; */
+
+   }
+   #tech6{
+      height: 320px;
+      width: 300px;
+
+
+   }#tech7{
+     margin-left: 20px;
+   }
+   #tech8{
+     
+    
+  }#tech9{
+     width: 1310px;
+     height: 500px;
+     border: 1px solid red;
+     margin-left: 25px;
+     margin-top: 30px;
+     display: flex;
+
+  }#tech10{
+     width: 320px;
+     height: 500px;
+     border: 1px solid green;
+     margin-left: 11px;
+
+  }
+  #tech11{
+     width:300px ;
+     height: 300px;
+
+
+  }  #tech12{
+     width:320px ;
+     height: 200px;
+     border: 1px solid pink;
+   
+   
+     }  
+   
+   
+
+
+

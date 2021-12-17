@@ -216,4 +216,44 @@ body {
   }
   
   /*-----footer Css Start-----*/
-  
+  /* my section start */
+  #deal1{
+   width: 1300px;
+   height: 700px;
+   border: 5px solid green;
+   margin-left: 25px;
+   display: flex;
+
+  }#deal2{
+   width: 420px;
+   height: 700px;
+   border: 2px solid red;
+   margin-left: 20px;
+
+  }#deal3{
+    width: 420px;
+    height: 700px;
+    border: 2px solid red;
+    margin-left: 20px;
+
+ 
+   }#deal4{
+    width: 420px;
+    height: 700px;
+    border: 2px solid red;
+    margin-left: 20px;
+   }
+   #deal5{
+   width: 100px;
+   height: 40px;
+   background-color: #ffc220;
+   padding-top: 10px;
+   margin-left: 10px;
+   text-align: center;
+
+   } #deal6{
+    padding: 10px;
+    background-color: blue;
+    border-radius: 5px;
+
+   }
