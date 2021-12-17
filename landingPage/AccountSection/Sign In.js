@@ -7,7 +7,8 @@ var password = document.querySelector("#password").value;
 
 if (email === "admin" && password === "admin") {
   alert("Admin Login Successful");
-  window.location.href = "Admin_Dashboard.html";
+  window.location.href = "\AdminPage/walmart_admi.html" ;
+ 
 }
 else {
   for (var i = 0; i < regdUsers.length; i++) {
