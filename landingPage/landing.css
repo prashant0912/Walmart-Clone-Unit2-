@@ -724,7 +724,8 @@ hr {
 .smallbox{
   width:23%;
   height:98%;
-  margin-left:1%
+  margin-left:1%;
+  
 }
 .deal{
   width:35%;
@@ -745,6 +746,7 @@ hr {
 .imgbox{
   width:100%;
   height:60%;
+  margin-top:20px;
 
 }
 img{

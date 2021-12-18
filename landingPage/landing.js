@@ -13,7 +13,9 @@ document.addEventListener("click", e => {
       dropdown.classList.remove("active")
     })
   })
-// cart popup window function for appearing and disappearing add by shoaib (16th dec 9:45pm)
+
+
+// cart popup window function for appearing and disappearing add by shoaib 
 
     function popup()
     {
