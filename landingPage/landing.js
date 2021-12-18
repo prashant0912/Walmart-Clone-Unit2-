@@ -44,6 +44,9 @@ document.addEventListener("click", e => {
     // popup window code fucntion end here (shoaib)
 
 
+
+
+    
   // sliding-JavaScript start---->
 
   $(".slider").owlCarousel({
@@ -63,6 +66,9 @@ document.addEventListener("click", e => {
     
   })
 //sliding-JavaScript End---->
+
+
+
 
 // static part js function added by shoaib (17th dec 5:45a.m) 
 
