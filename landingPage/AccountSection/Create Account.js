@@ -1,5 +1,5 @@
 document.querySelector("#Create_Account").addEventListener("click", createAccount)
-var userData = [] || JSON.parse(localStorage.getItem("userDatabase"));
+var userData =  JSON.parse(localStorage.getItem("userDatabase"))  ||[];
 
 function createAccount() {
     var fname = document.querySelector("#fname").value;
