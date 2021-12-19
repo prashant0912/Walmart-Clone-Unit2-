@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  
+    <title>SamsungLed</title>
+    <link rel="stylesheet" href="samsungled.css">
+  
+</head>
+<body>
+     <!-- walmartLogo/Home button  -->
+     <div class="header">
+        <a href="landing.html">
+          <img
+            loading="lazy"
+            src="https://i5.walmartimages.com/dfw/63fd9f59-b3e1/7a569e53-f29a-4c3d-bfaf-6f7a158bfadd/v1/walmartLogo.svg"
+            alt="walmart"
+            width="130"
+          />
+        </a>
+  
+        <!-- Departments dropdown-->
+        <div class="dropdown" data-dropdown>
+          <button class="NavHead" data-dropdown-button>Department</button>
+          <div style="z-index: 10; position: absolute;" class="dropdown-menu information-grid">
+            <div>
+              <div class="dropdown-heading">All Departments</div>
+              <div class="dropdown-links">
+                <a href="#" class="link">Electronics</a>
+                <a href="#" class="link">Grocery</a>
+                <a href="#" class="link">Clothings</a>
+                <a href="#" class="link">Appliances</a>
+                <a href="#" class="link">Home</a>
+                <a href="#" class="link">Toys & Video Games</a>
+                <a href="#" class="link">Beauty</a>
+                <a href="#" class="link">Personal Care</a>
+                <a href="#" class="link">Arts & Craft</a>
+                <a href="#" class="link">Health & Wellness</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Services dropdown-->
+        <div class="dropdown" data-dropdown>
+          <button class="NavHead" data-dropdown-button>Services</button>
+          <div style="z-index: 10; position: absolute;" class="dropdown-menu information-grid">
+            <div>
+              <div class="dropdown-heading">All Services</div>
+              <div class="dropdown-links">
+                <a href="#" class="link">Auto Care center services</a>
+                <a href="#" class="link">Health Services</a>
+                <a href="#" class="link">Registry,List & Gifts</a>
+                <a href="#" class="link">Holiday Gifting & Services</a>
+                <a href="#" class="link">Custom Cakes</a>
+                <a href="#" class="link">Photo Services</a>
+                <a href="#" class="link">Financial Services</a>
+                <a href="#" class="link">Community & Giving</a>
+                <a href="#" class="link">Get Inspired</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Search-Bar  start-->
+        <div id="containerSearch">
+    
+          <div class="searchBar"><input type="text" class = "search_text" placeholder = "   Search Products Here"></div>
+          <div class="searchIcon"> <button class = "search_button"><i class="fas fa-search"></button></i></div>
+
+        </div>
+        
+  
+        <!-- My items dropdown start-->
+        <div class="dropdown" data-dropdown>
+          <button class="NavHead" data-dropdown-button>My Items</button>
+          <div style="z-index: 10; position: absolute;" class="dropdown-menu information-grid">
+            <div>
+              <div class="dropdown-links">
+                <a href="#" class="link">Reorder</a>
+  
+                <a href="#" class="link">List</a>
+  
+                <a href="#" class="link">Registries</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Sign-In drop  Start-->
+  
+        <div class="dropdown" data-dropdown>
+          <button class="NavHead" data-dropdown-button>Sign-in/Account</button>
+          <div style="z-index: 10; position: absolute;" class="dropdown-menu information-grid">
+            <div>
+              <div class="dropdown-links">
+                <a href="AccountSection/Sign In.html" class="link">Sign in</a>
+  
+                <a href="AccountSection/Create Account.html" class="link">create an account</a>
+  
+                <a href="AccountSection/Sign In.html" class="link">Purchase History</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#"><ion-icon name="cart-outline"></ion-icon></a>
+        <div class="img">
+          <img style=" border-radius: 60px;" onclick="popup()" src="https://www.kindpng.com/picc/m/714-7147296_digicollect-cart-icon-png-download-jet-com-walmart.png" height="60px" width="60px">
+        </div>
+      </div>
+      
+  
+       
+      
+      
+
+      <!-- popup window html code by shaoib (16th dec 9:45pm)  start  here-->
+
+      <div style="z-index: 10; position: absolute;" id="popup">
+        <div class="head"><h2>Cart</h2><span><h2 onclick="popuphide()">X</h2></span></div>
+        <img src="https://mccbingo.com/wp-content/uploads/2020/08/Shopping-Cart-Blue-500-x-500.png">
+        <h3>Time to start shopping!</h3>
+        <h4>Your cart is empty</h4>
+        <h4 style="font-weight: 300;">Fill it up with savings from these popular departments.</h4>
+        <div id="btn">
+            <div class="flex">
+                <div class="but" onclick="gotoGroceryPage()">Shop Grocery</div>
+                <div class="but" onclick="gotoElectronicsPage()">Shop Electronics</div>
+                <div class="but" onclick="goToToys()">Shop Toys</div>
+            </div>
+            <div class="but" onclick="gotolandingPage()">Shop Home</div>
+        </div>    
+    </div>
+      <br>
+     
+      
+      <div id="deal1">
+        <div id="deal2">
+          <img class="deal9" src="https://i5.walmartimages.com/asr/cdc5ea12-a214-4601-a971-f4f692231685.03d49a2a3f4fb25f04d4c2250be7ddc2.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="">
+           <img class="deal9" src="https://i5.walmartimages.com/asr/cfe7ea93-b8d6-40e5-8d08-cf7ef18c8a92.8f67beaf25d9bb42ff8a4de8c877dd57.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="">
+           <img class="deal9" src="https://i5.walmartimages.com/asr/ba5e03e9-ead9-4da0-a423-fc1c72a37d24.88060af8ec5c2d546f88eee7430bcd88.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="">
+            <img class="deal9" src="https://i5.walmartimages.com/asr/b62f1c5c-bc2a-404f-b897-01269d110a21.f975d917d24fa728540ecfcc0d119d5d.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="">
+          </div>
+        <div id="deal3">
+        <img  id="deal10" src="https://i5.walmartimages.com/asr/cdc5ea12-a214-4601-a971-f4f692231685.03d49a2a3f4fb25f04d4c2250be7ddc2.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="">
+      
+        </div>
+        <div id="deal4">
+        <div id="deal5">
+            <p>Holiday deal</p>
+        </div>
+        <br>
+        <div id="deal6">
+        <p>SAMSUNG</p>
+        <br>
+        <h3>SAMSUNG65 Class 4K Crystal UHD (2160P) LED Smart TV with HDR UN65TU7000</h3>
+        <br>
+        <h3>$498.00</h3>
+        <br>
+        <h5>$47/month</h5>
+        <br>
+        <button id="deal7">Add to cart</button>
+        <br>
+        <hr>
+        <p>Free shippig ,Arrives within 5 days </p>
+        <p>Sold and shipped by walmart.com</p>
+        <hr>
+        <p>pacaking notes: Ships in the manufacture's original packaging, which may reveal the contents.</p>
+         
+        <p id="deal8">Add to list</p> 
+         <p id="deal8">Add to registry</p>  
+      </div>
+        </div>
+      
+      
+       </div>
+            
+      <!-- footerBar_Start -->
+      <footer>
+        <div id="footer">
+          <div class="lightBlue">
+            <p>We’d love to hear what you think!</p>
+            <button class="feed" type="button">Give Feedback</button>
+          </div>
+        </div>
+        <div class="darkBlue">
+          <ul>
+            <li>All Departments</li>
+            <li>Store Directory</li>
+            <li>Weekly Ad</li>
+            <li>Careers</li>
+            <li>Our Company</li>
+            <li>Sell on Walmart.com</li>
+            <li>Help</li>
+            <li>COVID-19 Vaccine Scheduler</li>
+            <li>Product Recalls</li>
+            <li>Get the Walmart App</li>
+            <li>Terms of Use</li>
+            <li>Privacy & Security</li>
+            <li>CA Privacy Rights</li>
+            <li>Do Not Sell My Personal Information</li>
+            <li>Request My Personal Information</li>
+          </ul>
+          <div>© 2021 Walmart. All Rights Reserved.</div>
+        </div>
+      </footer>
+</body>
+<script src="samsungled.js"></script>
+</html>
+
+
+
+
+
