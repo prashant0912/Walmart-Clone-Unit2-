@@ -125,23 +125,30 @@
       <!--Cart-Section-->
       </div>
 
-      <!-- popup window html code by shaoib (16th dec 9:45pm)  start  here-->
+      <!-- popup window in this all the item we want to buy is added on click this window will appers and dosenot hide till cross button is not click start  here-->
 
       <div style="z-index: 10; position: absolute;" id="popup">
         <div class="head"><h2>Cart</h2><span><h2 onclick="popuphide()">X</h2></span></div>
-        <img src="https://mccbingo.com/wp-content/uploads/2020/08/Shopping-Cart-Blue-500-x-500.png">
-        <h3>Time to start shopping!</h3>
-        <h4>Your cart is empty</h4>
-        <h4 style="font-weight: 300;">Fill it up with savings from these popular departments.</h4>
-        <div id="btn">
-            <div class="flex">
-                <div class="but" onclick="gotoGroceryPage()">Shop Grocery</div>
-                <div class="but" onclick="gotoElectronicsPage()">Shop Electronics</div>
-                <div class="but" onclick="goToToys()">Shop Toys</div>
-            </div>
-            <div class="but" onclick="gotolandingPage()">Shop Home</div>
-        </div>    
-    </div>
+        <div id="disappear">
+          <img src="E:\wallmart most important\images\empty-cart.svg">
+          <h3>Time to start shopping!</h3>
+          <div id="lalala">
+            <div id="icount"></div>
+            <div id="tobebuy"></div>
+          </div>
+          <a href="/paymentcard/card.html"><button id="chuparustam" onclick="abrakadabra()">CHEAKOUT</button></a>
+          <h4 style="font-weight: 300;">Fill it up with savings from these popular departments.</h4>
+          <div id="btn">
+              <div class="flex">
+                  <div class="but" onclick="gotoGroceryPage()">Shop Grocery</div>
+                  <div class="but" onclick="gotoElectronicsPage()">Shop Electronics</div>
+                  <div class="but" onclick="goToToys()">Shop Toys</div>
+              </div>
+          </div>
+          </div>
+          
+            <div class="but" id="home" onclick="gotolandingPage()">Shop Home</div>
+      </div>
     
     <!-- popup html code end here -->
       <!-- Sliding-Banner -->
@@ -360,14 +367,11 @@
      <!-- for you row end here -->
 
 
-     <!-- very very important portion for maping and adding this items to the cart -->
-     <!-- i just leaving space for maping work by deploing a div with same id="cartItem"
-      so that i use this id for mapping and adding this values to the cart -->
-      <div id="mainbox">
-        <h2>Build your cart</h2>
-        <div id="cartItem">
-        </div>
-      </div>
+     <!-- here all the values add from admin is displayed automatically-->
+     <div id="mainbox">
+      <h2 id="chip">Build your cart</h2>
+      <div id="cartItemShoaib"></div>
+    </div>
 
 
 
