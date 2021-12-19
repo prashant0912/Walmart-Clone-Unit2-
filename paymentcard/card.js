@@ -47,7 +47,7 @@ var cvv = document.querySelector(".cvv").value;
 if(cvv == 123){
 
     alert("Congratulation! your payment is succesful");
-    window.location.href= ""
+    window.location.href= "/landingPage/landing.html"
 
 }
 
@@ -89,11 +89,11 @@ var cardmon = document.querySelector(".cardmonII").value;
 var cardyear = document.querySelector('.cardyearII').value;
 var cvv = document.querySelector(".cvvII").value;
 
-
+//  debit Card
 if(cvv ==456){
 
     alert("Congratulation ! your payment is succeful");
-    window.location.href= ""
+    window.location.href= "/landingPage/landing.html"
 
 }
 
@@ -136,7 +136,7 @@ var pin = document.querySelector(".pin").value;
 if(pin ==1234){
 
     alert("Congratulation ! payment is successful");
-    window.location.href= ""
+    window.location.href= "/landingPage/landing.html"
 
 }
 
