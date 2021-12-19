@@ -14,7 +14,7 @@ else {
     if (regdUsers[i].email_Id == email && regdUsers[i].password == password) {
       window.location.href = "\Walmart-Clone-Unit2-\landingPage\landing.html" ;
         alert("User Login Successful")
-       window.location.href = "landingPage/landing.html";
+       window.location.href = "https://github.com/Aakashvani/Walmart-Clone-Unit2-/blob/master/landingPage/landing.html";
     }
   
   }
