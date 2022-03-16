@@ -15,3 +15,11 @@ step5 = by clicking checkout button it should to payment page and then add card 
 
 Thank you 
 Have a good day
+
+<img src = "https://miro.medium.com/max/1400/1*YkuqQu4aQZvnO0UmpvUR1w.jpeg">
+
+<img src = "https://miro.medium.com/max/1400/1*JhB-00_tFw7mmalEGniOtg.jpeg">
+
+
+<img src = "https://miro.medium.com/max/1400/1*FZfy1HQsaTZsULKAYEXYQA.jpeg">
+
